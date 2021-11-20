@@ -1,0 +1,19 @@
+﻿<Window x:Class="RcBuggyWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RcBuggyWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" FontSize="24">
+    <Grid>
+        <RichTextBox x:Name="richTextBox" Background="#FF212127" CaretBrush="#FF0046FF" Foreground="#FFFFE1E1" SelectionBrush="#FF0000D7">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="">
+                    </Run>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
